@@ -50,8 +50,8 @@ RegExp.escape= function(s) {
 
   $.csv = {
     defaults: {
-      separator:',',
-      delimiter:'"',
+      separator:';',
+      delimiter:'\n',
       headers:true
     },
 
